@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Register form</legend>
+        <section class="name">
+            <p>Name</p>
+            <input type="text" placeholder="Name" required>
+        </section>
+        <section class="surname">
+            <p>Surname</p>
+            <input type="text" placeholder="Surname" required>
+        </section>
+        <section class="email">
+            <p>Email</p>
+            <input type="text" placeholder="Email" required>
+        </section>
+
+        <section class="gender">
+            <p>Gender</p>
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" id="male" required>
+            <label for="female">Female</label>
+            <input type="radio" name="Gender" id="female">
+        
+        </section>
+
+        <section class="picture">
+            <p>Picture</p>
+            <input type="file" name="" id="">
+        </section>
+
+        <section class="country">
+            <p>Country</p>
+            <select name="" id="" required>
+                <option value="">Select</option>
+                <option value="">Germany</option>
+                <option value="">France</option>
+                <option value="">USA</option>
+            </select>
+        </section>
+
+        
+        <section class="lang">
+            <p >Preferred Language</p>
+            <select multiple>
+                <option value="">HTML</option>
+                <option value="">CSS</option>
+                <option value="">JS</option>
+                <option value="">React</option>
+            </select>
+            <p>(To choose more than one use cmd key)</p>
+        </section>
+
+        <section class="field">
+            <p>Field of activity</p>
+            <label for="">IT</label>
+            <input type="checkbox" name="" id="">
+            <label for="">Design</label>
+            <input type="checkbox" name="" id="">
+            <label for="">Other</label>
+            <input type="checkbox" name="" id="">
+            
+        </section>
+
+        <section class="button">
+            <input type="button" value="Send">
+            <input type="button" value="Cancel">
+
+        </section>
+    </fieldset>
+</body>
+</html>

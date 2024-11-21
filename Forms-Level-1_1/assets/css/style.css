@@ -1,0 +1,53 @@
+*  {
+    box-sizing: border-box;
+}
+
+section{
+    margin: 0px 20px 0px 20px;
+}
+
+fieldset{
+    /* text-align: center;
+    margin: 0px 100px 0px 100px ; */
+    border:0;
+    width: 60%;
+    margin: 40px auto;
+}
+
+h4{
+    text-align: left;
+    margin: 20px 0px 5px 0px;
+}
+.name input {
+    width: 248px;
+    height: 30px;
+    
+}
+
+span{
+    color:red
+}
+.email  input{
+    width: 500px;
+    height: 30px;
+}
+
+.thema select{
+    width: 500px;
+    height: 30px;
+    padding: 5px;
+}
+
+.nachricht textarea{
+    width: 500px;
+    height: 100px;
+
+}
+
+.button input{
+    width: 500px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: cyan;
+    border: 0px solid ;
+}

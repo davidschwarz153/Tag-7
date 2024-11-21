@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+section{
+    margin:2px;
+}
+
+section p{
+    display: inline;
+
+}
+
+
+.name input{
+    margin-left: 100px;
+}
+
+.surname input{
+    margin-left: 81px;
+}
+
+.email input{
+    margin-left: 100px;
+}
+.gender label:first-of-type{
+    margin-left: 92px;
+}
+.picture input{
+    margin-left: 94px;
+}
+.country select{
+    margin-left: 87px;
+}
+.lang select{
+    margin-left: 14px;
+    
+}
+.field label:first-of-type{
+    margin-left: 40px;
+}
